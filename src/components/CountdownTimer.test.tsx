@@ -7,9 +7,9 @@ describe("CountdownTimer", () => {
     expect(screen.getByLabelText(/Horas/i)).toBeInTheDocument();
     expect(screen.getByLabelText(/Min/i)).toBeInTheDocument();
     expect(screen.getByLabelText(/Seg/i)).toBeInTheDocument();
-  expect(screen.getByRole('button', { name: 'Iniciar' })).toBeInTheDocument();
-  expect(screen.getByRole('button', { name: 'Pausar' })).toBeInTheDocument();
-  expect(screen.getByRole('button', { name: 'Reanudar' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Iniciando' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Pausando' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Reanudando' })).toBeInTheDocument();
   expect(screen.getByRole('button', { name: 'Reiniciar' })).toBeInTheDocument();
   });
 

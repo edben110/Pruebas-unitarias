@@ -14,7 +14,7 @@ import {
   FaClock,
   FaPalette,
   FaSearch,
-  FaTasks,
+  FaTasks, // ✅ ahora sí se usará
 } from "react-icons/fa";
 
 interface SidebarItem {
@@ -39,6 +39,7 @@ const exerciseItems: SidebarItem[] = [
   { label: "Lista de Tareas", route: "/listareas", icon: <FaList /> },
   { label: "Temporizador", route: "/temporizador", icon: <FaCalculator /> },
   { label: "Reloj Digital", route: "/relojdigital", icon: <FaClock /> },
+  { label: "Gestor de Tareas", route: "/tareas", icon: <FaTasks /> }, // ✅ uso de FaTasks
 
   // ✅ Nuevos ejercicios añadidos desde el proyecto anidado
   { label: "Selector de Color", route: "/colorpicker", icon: <FaPalette /> },

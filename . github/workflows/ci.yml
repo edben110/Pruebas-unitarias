@@ -58,3 +58,10 @@ jobs:
         with:
           name: dist-node-${{ matrix.node-version }}
           path: dist
+          
+"scripts": {
+  "type-check": "tsc --noEmit",
+  "lint": "eslint . --ext .ts,.tsx",
+  "test": "jest",
+  "build": "vite build"
+}

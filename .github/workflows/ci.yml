@@ -65,6 +65,3 @@ jobs:
   "test": "jest",
   "build": "vite build"
 }
-
-      - name: 🚨 Forzar error para prueba
-        run: exit 1

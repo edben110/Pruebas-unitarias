@@ -3,9 +3,9 @@ name: CI_CALIDAD_SOFTWARE
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
-    branches: [main]
+    branches: [master]
   # 🔁 Ejecuta en pushes a main y en PRs hacia main
 
 concurrency:

@@ -14,7 +14,6 @@ import {
   FaClock,
   FaPalette,
   FaSearch,
-  FaTasks,
 } from "react-icons/fa";
 
 interface SidebarItem {
